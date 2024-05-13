@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorOnSurface">@color/green</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="DialogTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorAccent">@color/green</item>
+    </style>
+    <style name="MyExposedDropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/green</item>
+        <item name="hintTextColor">@color/green</item>
+        <item name="counterTextColor">@color/green</item>
+    </style>
+    <style name="custom_edittext" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/green</item>
+        <item name="hintTextColor">@color/green</item>
+        <item name="counterTextColor">@color/green</item>
+        <item name="android:colorAccent">@color/green</item>
+    </style>
+</resources>

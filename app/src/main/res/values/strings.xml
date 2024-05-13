@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordRetype">Retype Password </string>
+    <string name="password_must_be_atleast_6_letters">Password must be at least 6 characters long *</string>
+    <string name="home">Home</string>
+    <string name="my_points">My Points:</string>
+    <string name="points_info">Points help you get tokens which\nhelp you get gifts</string>
+    <string name="points">Points</string>
+    <string name="type_of_material">Type of material</string>
+    <string name="send_for_recycling">Send for Recycling</string>
+    <string name="username">Username</string>
+    <string name="approval_of_registration">Approval of registration</string>
+    <string name="please_indicate_your_decision_accept_or_decline_the_registration">Please indicate your decision: Accept or Decline the registration.</string>
+    <string name="no_registration_to_approve">No registration to approve</string>
+    <string name="view_top_statistics">View top statistics</string>
+    <string name="here_are_the_top_3_users_for_each_category">Here are the top 3 users for each category</string>
+    <string-array name="material_array">
+        <item>Plastic</item>
+        <item>Glass</item>
+        <item>Paper</item>
+    </string-array>
+</resources>

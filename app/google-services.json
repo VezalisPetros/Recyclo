@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "55224637933",
+    "firebase_url": "https://recycling-reward-applica-869b6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "recycling-reward-applica-869b6",
+    "storage_bucket": "recycling-reward-applica-869b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55224637933:android:abe2ca6413e698cba2afe4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiblxf5YizVg20Ole4xYFVkQ4e5GjN4k4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,9 +11,26 @@
         <item name="colorAccent">@color/green</item>
     </style>
     <style name="MyExposedDropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-        <item name="boxStrokeColor">@color/green</item>
+        <item name="boxStrokeColor">@color/border_color</item>
         <item name="hintTextColor">@color/green</item>
         <item name="counterTextColor">@color/green</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="boxStrokeWidth">3dp</item>
+        <item name="shapeAppearance">@style/MyShapeAppearance</item>
+
+    </style>
+    <style name="MyEditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/border_color</item>
+        <item name="hintTextColor">@color/green</item>
+        <item name="counterTextColor">@color/green</item>
+        <item name="boxStrokeWidth">3dp</item>
+        <item name="shapeAppearance">@style/MyShapeAppearance</item>
+        <item name="android:textColorHint">@color/black</item>
+
+    </style>
+
+    <style name="MyShapeAppearance" parent="">
+        <item name="cornerSize">16dp</item> <!-- Set the corner size you want -->
     </style>
     <style name="custom_edittext" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@color/green</item>

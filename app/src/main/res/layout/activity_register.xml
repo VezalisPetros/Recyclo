@@ -29,12 +29,12 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp">
+        android:layout_marginTop="90dp"
+        style="@style/MyEditTextStyle">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
 
             android:hint="@string/email"
-            android:background="@drawable/custom_edittext"
             android:drawableLeft="@drawable/baseline_email_24"
             android:drawablePadding="8dp"
             android:textColor="@color/black"
@@ -44,12 +44,12 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        style="@style/MyEditTextStyle">>
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/username"
 
             android:hint="@string/username"
-            android:background="@drawable/custom_edittext"
             android:drawableLeft="@drawable/baseline_person_24"
             android:drawablePadding="8dp"
             android:textColor="@color/black"
@@ -67,15 +67,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        style="@style/MyEditTextStyle"
+        android:hint="@string/password"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/grayLock"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:startIconTint="@color/black"
+        >
 
         >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
-            android:background="@drawable/custom_edittext"
-            android:drawableLeft="@drawable/baseline_lock_24"
-            android:drawablePadding="8dp"
-            android:hint="@string/password"
-
+            android:inputType="textPassword"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -83,12 +86,14 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        style="@style/MyEditTextStyle"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/grayLock"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:startIconTint="@color/black">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordRetype"
-            android:background="@drawable/custom_edittext"
-            android:drawableLeft="@drawable/baseline_lock_24"
-            android:drawablePadding="8dp"
             android:hint="@string/passwordRetype"
             android:textColor="@color/black"
             android:layout_width="match_parent"

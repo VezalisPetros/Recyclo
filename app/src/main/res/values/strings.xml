@@ -18,6 +18,8 @@
     <string name="no_registration_to_approve">No registration to approve</string>
     <string name="view_top_statistics">View top statistics</string>
     <string name="here_are_the_top_3_users_for_each_category">Here are the top 3 users for each category</string>
+    <string name="quanity">Quanity</string>
+    <string name="date">Date</string>
     <string-array name="material_array">
         <item>Plastic</item>
         <item>Glass</item>

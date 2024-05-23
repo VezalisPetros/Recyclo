@@ -39,6 +39,10 @@ Recyclo utilizes the following technologies:
 ## Getting Started
 To get started with Recyclo, follow these steps:
 
+### Prerequisites
+- Install the API 26: Android 8.0 (Oreo)
+
+### Installation
 1. **Open the project in Android Studio**: Clone the repository and open it in Android Studio IDE.
 2. **Connect the project to your Firebase project**: Follow the Firebase setup instructions to connect Recyclo to your Firebase project. This involves adding the necessary Firebase configuration files to your Android project.
 3. **Build and run the app**: Once the project is set up and connected to Firebase, build and run the app on an Android emulator or device.

@@ -23,6 +23,11 @@ Recyclo offers the following features:
 
 - **Admin Panel**: An admin account is provided to oversee user submissions. The admin can view and approve or decline recycling forms submitted by users. Upon approval, points are automatically allocated to the user's account.
 
+## Demo
+Feel free to check out the video demo of Recyclo to see the app in action:
+
+[![Watch the Demo on YouTube](https://img.youtube.com/vi/AmytQKglBpk/0.jpg)](https://www.youtube.com/watch?v=AmytQKglBpk&t)
+
 ## Technologies Used
 Recyclo utilizes the following technologies:
 
